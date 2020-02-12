@@ -27,3 +27,11 @@ def square_root(num)
 sum = Integer.sqrt(num)
 p sum
 end
+
+def average(array)
+  sum = 0
+  for number in array
+  sum = number + sum
+  end
+ sum = sum / array.length
+ end
